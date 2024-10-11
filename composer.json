@@ -43,6 +43,12 @@
         "symfony/security-core": "^4.4 || ^5.1 || ^6.4",
         "symfony/yaml": "^4.4 || ^5.1 || ^6.4"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/70mmy/oauth2-php"
+        }
+    ],
     "conflict": {
         "twig/twig": "<1.40 || >=2.0,<2.9"
     },
